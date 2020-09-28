@@ -2,6 +2,7 @@ package com.study.test.thread;
 
 /**
  * 死锁Demo
+ * 两个线程两把锁
  * @author PengG
  * @date 2020/9/25 9:11
  */
