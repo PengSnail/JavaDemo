@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6babb1-8f63-481d-9a0c-5fdaf8703513" name="Default Changelist" comment="" />
+    <list default="true" id="9d6babb1-8f63-481d-9a0c-5fdaf8703513" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/FactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/ProxyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/ProxyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/RealImage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +30,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -24,6 +48,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1hw4iIbeIaG43TsUKFX1FuOSyvP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,13 +64,13 @@
     <property name="project.structure.side.proportion" value="0.24028549" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ProdConsumerBlockQueueDemo">
-    <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.test.juc.aqs.BlockingQueueDemo" />
+  <component name="RunManager" selected="Application.ProxyPatternDemo">
+    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.test.pattern.factory_pattern.FactoryPatternDemo" />
       <module name="JavaDemoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.test.juc.aqs.*" />
+          <option name="PATTERN" value="com.study.test.pattern.factory_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProxyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.test.pattern.proxy_pattern.ProxyPatternDemo" />
+      <module name="JavaDemoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.test.pattern.proxy_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SyncAndReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.test.juc.aqs.demo.SyncAndReentrantLockDemo" />
       <module name="JavaDemoTest" />
@@ -92,26 +130,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.test.juc.aqs.SynchronousQueueDemo" />
-      <module name="JavaDemoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.test.juc.aqs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
+      <item itemvalue="Application.ProdConsumerTraditionalDemo" />
+      <item itemvalue="Application.SyncAndReentrantLockDemo" />
+      <item itemvalue="Application.FactoryPatternDemo" />
+      <item itemvalue="Application.ProxyPatternDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyPatternDemo" />
+        <item itemvalue="Application.FactoryPatternDemo" />
         <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
         <item itemvalue="Application.SyncAndReentrantLockDemo" />
         <item itemvalue="Application.ProdConsumerTraditionalDemo" />
-        <item itemvalue="Application.SynchronousQueueDemo" />
-        <item itemvalue="Application.BlockingQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -132,11 +164,31 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="154" key="#Project_Structure" timestamp="1600910433494">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="440" y="154" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600910433494" />
+    <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602121450007">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602121450007" />
+    <state x="765" y="285" key="#com.intellij.ide.util.MemberChooser" timestamp="1602121239353">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="765" y="285" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602121239353" />
     <state x="582" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600929907005">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -149,50 +201,54 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="335" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600910151238" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1600937649519">
+    <state width="1877" height="500" key="GridCell.Tab.0.bottom" timestamp="1602145056741">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600930257917" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1600937649519" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1600937649519">
+    <state width="1877" height="568" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
+    <state width="1877" height="500" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
+    <state width="1877" height="500" key="GridCell.Tab.0.center" timestamp="1602145056741">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600930257917" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1600937649519" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1600937649519">
+    <state width="1877" height="568" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
+    <state width="1877" height="500" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
+    <state width="1877" height="500" key="GridCell.Tab.0.left" timestamp="1602145056741">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600930257917" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1600937649519" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1600937649519">
+    <state width="1877" height="568" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
+    <state width="1877" height="500" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
+    <state width="1877" height="500" key="GridCell.Tab.0.right" timestamp="1602145056741">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600930257917" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1600937649519" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600937649519">
+    <state width="1877" height="568" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
+    <state width="1877" height="500" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
+    <state width="1877" height="500" key="GridCell.Tab.1.bottom" timestamp="1602145056742">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600930257918" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1600937649519" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600937649519">
+    <state width="1877" height="568" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533121" />
+    <state width="1877" height="500" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056742" />
+    <state width="1877" height="500" key="GridCell.Tab.1.center" timestamp="1602145056742">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600930257918" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1600937649519" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600937649519">
+    <state width="1877" height="568" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533121" />
+    <state width="1877" height="500" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056742" />
+    <state width="1877" height="500" key="GridCell.Tab.1.left" timestamp="1602145056741">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600930257918" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1600937649519" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600937649519">
+    <state width="1877" height="568" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
+    <state width="1877" height="500" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
+    <state width="1877" height="500" key="GridCell.Tab.1.right" timestamp="1602145056742">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600930257918" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1600937649519" />
+    <state width="1877" height="568" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533121" />
+    <state width="1877" height="500" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056742" />
     <state x="461" y="224" key="SettingsEditor" timestamp="1600910424290">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="224" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600910424290" />
+    <state x="92" y="92" width="1736" height="976" key="ShowDiffWithBranchDialog" timestamp="1602120833278">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="92" y="92" width="1736" height="976" key="ShowDiffWithBranchDialog/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602120833278" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1600929961205">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -201,13 +257,24 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="482" y="309" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600911433885" />
-    <state x="662" y="312" width="596" height="536" key="find.popup" timestamp="1600918763837">
+    <state x="232" y="312" width="1026" height="536" key="find.popup" timestamp="1602122564191">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="662" y="312" width="596" height="536" key="find.popup/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600918763837" />
-    <state x="616" y="270" key="run.anything.popup" timestamp="1600926878321">
+    <state x="232" y="312" width="1026" height="536" key="find.popup/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122564191" />
+    <state x="616" y="270" key="run.anything.popup" timestamp="1602121206057">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="616" y="270" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600926878321" />
+    <state x="616" y="270" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602121206057" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/ProxyImage.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
