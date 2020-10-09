@@ -10,17 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6babb1-8f63-481d-9a0c-5fdaf8703513" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/FactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/factory_pattern/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/ProxyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/ProxyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/RealImage.java" afterDir="false" />
+    <list default="true" id="9d6babb1-8f63-481d-9a0c-5fdaf8703513" name="Default Changelist" comment=" OOM异常相关测试">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/basics/proxy/dynamic_proxy/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/basics/proxy/dynamic_proxy/HelloImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/basics/proxy/dynamic_proxy/HelloProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/basics/proxy/dynamic_proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/basics/proxy/static_proxy/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/basics/proxy/static_proxy/HelloImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/basics/proxy/static_proxy/HelloProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/test/basics/proxy/static_proxy/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/test/pattern/proxy_pattern/ProxyPatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/test/pattern/proxy_pattern/ProxyPatternDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +57,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24028549" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ProxyPatternDemo">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.test.basics.proxy.dynamic_proxy" />
+      <recent name="com.study.test.basics.proxy.static_proxy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProxyTest (1)">
     <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.test.pattern.factory_pattern.FactoryPatternDemo" />
       <module name="JavaDemoTest" />
@@ -78,25 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdConsumerBlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.test.juc.aqs.demo.ProdConsumerBlockQueueDemo" />
+    <configuration name="ProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.test.aa.ProxyDemo" />
       <module name="JavaDemoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.test.juc.aqs.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProdConsumerTraditionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.test.juc.aqs.demo.ProdConsumerTraditionalDemo" />
-      <module name="JavaDemoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.test.juc.aqs.demo.MyResource" />
+          <option name="PATTERN" value="com.study.test.aa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +110,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncAndReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.test.juc.aqs.demo.SyncAndReentrantLockDemo" />
+    <configuration name="ProxyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.test.basics.proxy.dynamic_proxy.ProxyTest" />
       <module name="JavaDemoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.test.juc.aqs.demo.MyResource" />
+          <option name="PATTERN" value="com.study.test.basics.proxy.dynamic_proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.test.basics.proxy.static_proxy.ProxyTest" />
+      <module name="JavaDemoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.test.basics.proxy.static_proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +137,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
-      <item itemvalue="Application.ProdConsumerTraditionalDemo" />
-      <item itemvalue="Application.SyncAndReentrantLockDemo" />
       <item itemvalue="Application.FactoryPatternDemo" />
       <item itemvalue="Application.ProxyPatternDemo" />
+      <item itemvalue="Application.ProxyDemo" />
+      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Application.ProxyTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyTest (1)" />
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="Application.ProxyDemo" />
         <item itemvalue="Application.ProxyPatternDemo" />
         <item itemvalue="Application.FactoryPatternDemo" />
-        <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
-        <item itemvalue="Application.SyncAndReentrantLockDemo" />
-        <item itemvalue="Application.ProdConsumerTraditionalDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600908945762</updated>
       <workItem from="1600908949801" duration="21275000" />
+      <workItem from="1602169984918" duration="6056000" />
     </task>
     <servers />
   </component>
@@ -185,10 +192,15 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602121450007" />
-    <state x="765" y="285" key="#com.intellij.ide.util.MemberChooser" timestamp="1602121239353">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1602171022653">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602171022653" />
     <state x="765" y="285" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602121239353" />
+    <state x="1065" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602170534480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1065" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602170534480" />
     <state x="582" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600929907005">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -201,44 +213,52 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="335" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1600910151238" />
-    <state width="1877" height="500" key="GridCell.Tab.0.bottom" timestamp="1602145056741">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="500" key="GridCell.Tab.0.bottom" timestamp="1602174615172">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="914" height="500" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602174615172" />
     <state width="1877" height="568" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
     <state width="1877" height="500" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
-    <state width="1877" height="500" key="GridCell.Tab.0.center" timestamp="1602145056741">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="500" key="GridCell.Tab.0.center" timestamp="1602174615171">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="914" height="500" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602174615171" />
     <state width="1877" height="568" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
     <state width="1877" height="500" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
-    <state width="1877" height="500" key="GridCell.Tab.0.left" timestamp="1602145056741">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="500" key="GridCell.Tab.0.left" timestamp="1602174615171">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="914" height="500" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602174615171" />
     <state width="1877" height="568" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
     <state width="1877" height="500" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
-    <state width="1877" height="500" key="GridCell.Tab.0.right" timestamp="1602145056741">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="500" key="GridCell.Tab.0.right" timestamp="1602174615172">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="914" height="500" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602174615172" />
     <state width="1877" height="568" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
     <state width="1877" height="500" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
-    <state width="1877" height="500" key="GridCell.Tab.1.bottom" timestamp="1602145056742">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="500" key="GridCell.Tab.1.bottom" timestamp="1602174615172">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="914" height="500" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602174615172" />
     <state width="1877" height="568" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533121" />
     <state width="1877" height="500" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056742" />
-    <state width="1877" height="500" key="GridCell.Tab.1.center" timestamp="1602145056742">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="500" key="GridCell.Tab.1.center" timestamp="1602174615172">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="914" height="500" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602174615172" />
     <state width="1877" height="568" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533121" />
     <state width="1877" height="500" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056742" />
-    <state width="1877" height="500" key="GridCell.Tab.1.left" timestamp="1602145056741">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="500" key="GridCell.Tab.1.left" timestamp="1602174615172">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="914" height="500" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602174615172" />
     <state width="1877" height="568" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533120" />
     <state width="1877" height="500" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056741" />
-    <state width="1877" height="500" key="GridCell.Tab.1.right" timestamp="1602145056742">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="500" key="GridCell.Tab.1.right" timestamp="1602174615172">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="914" height="500" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602174615172" />
     <state width="1877" height="568" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602122533121" />
     <state width="1877" height="500" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@1920.0.1920.1040" timestamp="1602145056742" />
     <state x="461" y="224" key="SettingsEditor" timestamp="1600910424290">
@@ -265,16 +285,5 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="616" y="270" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1602121206057" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/study/test/pattern/proxy_pattern/ProxyImage.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
