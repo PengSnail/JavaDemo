@@ -4,7 +4,7 @@ package com.study.test.basics.proxy.static_proxy;
  * 静态代理测试类
  * @author PengG
  */
-public class ProxyTest {
+public class StaticProxyTest {
    public static void main(String[] args) {
       HelloImpl helloImpl = new HelloImpl();
       HelloProxy helloProxy = new HelloProxy(helloImpl);

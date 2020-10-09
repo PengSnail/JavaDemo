@@ -1,4 +1,4 @@
-package com.study.test.basics.proxy.dynamic_proxy;
+package com.study.test.basics.proxy.dynamic_proxy.jdk;
 
 /**
  * 动态代理测试类
