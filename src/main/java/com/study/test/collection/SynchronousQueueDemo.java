@@ -1,4 +1,4 @@
-package com.study.test.juc.aqs;
+package com.study.test.collection;
 
 import java.util.concurrent.SynchronousQueue;
 
