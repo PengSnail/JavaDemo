@@ -3,7 +3,12 @@ package com.study.test.juc.aqs;
 
 import lombok.Getter;
 
+import java.util.Arrays;
+import java.util.Random;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 @Getter
 enum CountryEnum {
@@ -59,5 +64,34 @@ public class CountDownLatchDemo {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * 等待所有玩家加载完成才能开始游戏
+     * @throws InterruptedException
+     */
+    public static void loadGame() throws InterruptedException {
+        ExecutorService threadPool = Executors.newFixedThreadPool(10);
+        CountDownLatch countDownLatch = new CountDownLatch(10);
+        Random random = new Random();
+        String[] allPlayers = new String[10];
+        for (int i = 0; i < 10; i++) {
+            int temp = i;
+            threadPool.submit(() -> {
+                for (int j = 0; j <= 100; j++) {
+                    try {
+                        TimeUnit.MILLISECONDS.sleep(random.nextInt(100));
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    allPlayers[temp] = j + "%";
+                    System.out.print("\r" + Arrays.toString(allPlayers));
+                }
+                countDownLatch.countDown();
+            });
+        }
+        countDownLatch.await();
+        System.out.println("\n所有玩家加载完成，游戏开始");
+        threadPool.shutdown();
     }
 }
