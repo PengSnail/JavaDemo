@@ -1,4 +1,4 @@
-package com.study.test.juc.aqs.lock;
+package com.study.test.juc.aqs.lock.mylock;
 
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
