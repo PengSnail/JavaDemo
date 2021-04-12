@@ -15,8 +15,9 @@ public class QuickSort implements Sort {
     /**
      * 分区思想：
      * 步骤一：先将大的和小的各放一边
-     * 步骤二：取中间基准点，将左边部分再次重复步骤一
-     * 步骤三：将基准点的右边部分重复步骤一
+     * 步骤二：取中间基准点
+     * 步骤三：将左边部分再次重复步骤一
+     * 步骤四：将基准点的右边部分重复步骤一
      */
     private int[] quickSort(int[] arr, int left, int right) {
         if (left < right) {
@@ -31,10 +32,13 @@ public class QuickSort implements Sort {
     private int partition(int[] arr, int left, int right) {
         // 设定基准值（pivot）
         int pivot = left;
+        // 记录新的基准值
         int index = pivot + 1;
         for (int i = index; i <= right; i++) {
+            // 找到比基准值更小的元素
             if (arr[i] < arr[pivot]) {
                 swap(arr, i, index);
+                // 更新新基准值的位置
                 index++;
             }
         }
